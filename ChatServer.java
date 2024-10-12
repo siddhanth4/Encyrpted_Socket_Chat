@@ -5,7 +5,7 @@ import java.util.*;
 public class ChatServer {
     private static Set<ClientHandler> clientHandlers = new HashSet<>();
     private static final int PORT = 12345;
-    private static final String ENCRYPTION_KEY = "QWERTYUIOPASDFGHJKLZXCVBNM"; // Example key for substitution
+    //private static final String ENCRYPTION_KEY = "QWERTYUIOPASDFGHJKLZXCVBNM"; // Example key for substitution
 
     public static void main(String[] args) {
         try (ServerSocket serverSocket = new ServerSocket(PORT)) {
