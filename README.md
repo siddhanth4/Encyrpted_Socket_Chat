@@ -19,11 +19,9 @@ This project demonstrates a basic client-server communication using sockets in J
 ## How to Run
 
 ### To Run the Server
-    ```bash
     javac ChatServer.java
     java ChatServer
 
 ### To Run the Client
-    ```bash
     javac ChatClient.java
     java ChatClient
